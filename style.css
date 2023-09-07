@@ -28,7 +28,7 @@ li .follow-us-on{
     margin-bottom: 65px;
     padding: 5px;
     border-radius: 5px;
-    background-color:rgb(196, 182, 164);
+    background-color:rgb(229, 225, 220);
 }
  
  
@@ -48,4 +48,101 @@ li .follow-us-on{
     height: 30px;
     margin-left: 20px;
     margin-top: 25px;
+}
+.first-section-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-section{
+    margin-left: 250px;
+}
+.button{
+    
+    border: none;
+    margin: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:#F948B2;
+    color: white;
+    border-radius: 15px;
+}
+ 
+.my-button{
+    border: none;
+    margin: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:#4EC5F7;
+    color: white;
+    border-radius: 15px;
+}
+.second-section-part{
+    display: flex;
+    justify-content: space-between;
+}
+.my-div{
+    text-align: right;
+    margin-top: 80px;
+}
+.super-section{
+    display: flex;
+    justify-content: space-between;
+}
+.fairy-img img{
+    position: relative;
+    top: -250px;
+    right: 90px;
+}
+.hero-section{
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 320px;
+}
+.para-part{
+    color: #534C64;
+    font-weight: 300;
+}
+
+    
+    
+    
+}
+.group-third{
+    color: #FFFFFF;
+}
+.third-group-party{
+    
+    color: #FFFFFF;
+    background-color: #F948B2;
+    
+    
+    
+}
+.career-part{
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 140px;
+    align-items: center;
+    
+    
+}
+.this-career{
+    display: flex;
+    justify-content: space-between;
+}
+.new-button{
+    border: none;
+    margin-bottom: 300px;
+    margin-left: 150px;
+    padding: 25px;
+    font-size: large;
+    background-color:#FFFFFF;
+    color: #F948B2;
+    border-radius: 15px;
 }

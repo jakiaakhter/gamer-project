@@ -2,7 +2,8 @@ body{
     font-family:  'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    font-size: 35px;
+    font-size: 12px;
+    
 }
 
 .navbar{
@@ -27,9 +28,9 @@ li .follow-us-on{
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 65px;
-    padding: 5px;
-    border-radius: 5px;
-    background-color:rgb(229, 225, 220);
+    padding: 2px;
+    border-radius: 10px;
+    background-color:white
 }
  
  
@@ -45,10 +46,11 @@ li .follow-us-on{
     font-weight: bold;
 }
 .gamer-heading  img{
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     margin-left: 20px;
-    margin-top: 65px;
+    margin-top: 20px;
+    
     
 }
 .first-section-part{
@@ -63,7 +65,6 @@ li .follow-us-on{
     
     border: none;
     margin: 8px;
-    font-size: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -76,7 +77,6 @@ li .follow-us-on{
 .my-button{
     border: none;
     margin: 8px;
-    font-size: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -131,9 +131,14 @@ li .follow-us-on{
     
     
 }
+.last-section img{
+    width: 200px;
+    
+}
 .this-career{
     display: flex;
     justify-content: space-between;
+    font-size: 8px;
 }
 .new-button{
     border: none;

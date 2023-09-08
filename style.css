@@ -2,6 +2,7 @@ body{
     font-family:  'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
 }
 
 .navbar{
@@ -43,11 +44,12 @@ li .follow-us-on{
     margin-left: 10px;
     font-weight: bold;
 }
-.gamer-heading img{
-    width: 30px;
-    height: 30px;
+.gamer-heading  img{
+    width: 40px;
+    height: 40px;
     margin-left: 20px;
-    margin-top: 25px;
+    margin-top: 65px;
+    
 }
 .first-section-part{
     display: flex;
@@ -61,25 +63,27 @@ li .follow-us-on{
     
     border: none;
     margin: 8px;
+    font-size: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
     background-color:#F948B2;
     color: white;
-    border-radius: 15px;
+    border-radius: 30px;
 }
  
 .my-button{
     border: none;
     margin: 8px;
+    font-size: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
     background-color:#4EC5F7;
     color: white;
-    border-radius: 15px;
+    border-radius: 45px;
 }
 .second-section-part{
     display: flex;
@@ -101,17 +105,13 @@ li .follow-us-on{
 .hero-section{
     text-align: center;
     margin-left: 350px;
-    margin-top: 320px;
+    margin-top: 150px;
 }
 .para-part{
     color: #534C64;
     font-weight: 300;
 }
 
-    
-    
-    
-}
 .group-third{
     color: #FFFFFF;
 }
@@ -119,9 +119,8 @@ li .follow-us-on{
     
     color: #FFFFFF;
     background-color: #F948B2;
-    
-    
-    
+  
+       
 }
 .career-part{
     display: flex;
@@ -138,11 +137,97 @@ li .follow-us-on{
 }
 .new-button{
     border: none;
-    margin-bottom: 300px;
+    font-size: 35px;
+    margin-bottom: 130px;
     margin-left: 150px;
     padding: 25px;
     font-size: large;
+    font-weight: 800;
     background-color:#FFFFFF;
     color: #F948B2;
-    border-radius: 15px;
+    border-radius: 35px;
+}
+.more-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: center;
+}
+.game-design{
+    display: flex;
+    gap: 5px;
+}
+.footer-gamer{
+    display: flex;
+    justify-content: center;
+    
+}
+footer{
+    margin-top: 30px;
+    padding: 30px;
+    background-color: black;
+}
+footer ul{
+    color: #FFFFFF;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+footer ul li a{
+    color: #FFFFFF;
+}
+.my-icon{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.last-section{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.online-game{
+    text-align: center;
+}
+.my-last-img img{
+    opacity: 0.5;
+}
+@media screen and (max-width:556px) {
+    .navbar{
+        flex-direction: column;
+    }
+    
+    
+    .gamer-heading{
+        flex-direction: column;
+    }
+    .first-section-part{
+        flex-direction: column;
+    }
+    .second-section-part{
+        flex-direction: column;
+    }
+    .super-section , .career-part , .this-career , .more-section , .game-design , .footer-gamer , .footer ul , .last-sections{
+        flex-direction: column;
+    }
+    .follow-us-on img{
+        width: 40px;
+    }
+    ul li{
+        text-align: center;
+    }
+    li .follow-us-on{
+        margin: 0px;
+        position: sticky;
+    }
+    .third-group-party{
+        text-align: center;
+    }
+    .footer-gamer , .gamer-heading{
+        text-align: center;
+    }
+    
 }
